@@ -32,5 +32,5 @@ the frontend developers can demo out some initial design ideas to the big bosses
 
 ## Test
 
-> npm test
+`npm test`
 
