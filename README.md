@@ -22,17 +22,11 @@ the frontend developers can demo out some initial design ideas to the big bosses
 - Robust Error Handling
 - HTTP status codes
 
-## Steps Completed
+## Tasks Completed
 
-{
-  "data": [
-    {
-      "id": "d351db2b49b69679504652ea1cf38241",
-      "name": "Dolcelatte and chickpea spaghetti",
-      "description": "Spaghetti topped with a blend of dolcelatte and fresh chickpeas",
-      "price": 19,
-      "image_url": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?h=530&w=350"
-    }
-  ]
-}
+- In the src/dishes/dishes.controller.js file, add handlers and middleware functions to create, read, update, and list dishes. Note that dishes cannot be deleted.
+- In the src/dishes/dishes.router.js file, add two routes: /dishes, and /dishes/:dishId and attach the handlers (create, read, update, and list) exported from src/dishes/dishes.controller.js.
+- In the src/orders/orders.controller.js file, add handlers and middleware functions to create, read, update, delete, and list orders.
+- In the src/orders/orders.router.js file, add two routes: /orders, and /orders/:orderId and attach the handlers (create, read, update, delete, and list) exported from src/orders/orders.controller.js.
+- Anytime you need to assign a new id to an order or dish, use the nextId function exported from src/utils/nextId.js
 
