@@ -30,3 +30,7 @@ the frontend developers can demo out some initial design ideas to the big bosses
 - In the src/orders/orders.router.js file, add two routes: /orders, and /orders/:orderId and attach the handlers (create, read, update, delete, and list) exported from src/orders/orders.controller.js.
 - Anytime you need to assign a new id to an order or dish, use the nextId function exported from src/utils/nextId.js
 
+## Test
+
+npm test
+
